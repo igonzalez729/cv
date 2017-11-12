@@ -290,7 +290,7 @@ em.enfasis-subrayado {
 .enlaces {
   width: 60px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .div-body {
     width: 80%;
   }
@@ -365,7 +365,6 @@ em.enfasis-subrayado {
     height: 100px;
   }
   .article1-1-software {
-      overflow: auto;
       margin-top: 2%;
   }
   .article1-1-software h3 {
