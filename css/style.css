@@ -270,7 +270,7 @@ em.enfasis-subrayado {
   justify-content: space-around;
 }
 .formulario-botones input{
-  width: 70px;
+  width: 107px;
 }
 .footer {
   margin: 0% 3% 0% 3%;
@@ -290,6 +290,75 @@ em.enfasis-subrayado {
 .enlaces {
   width: 60px;
 }
+@media screen and (min-width: 480px) {
+  .cabecera h1 {
+    font-size: 560%;
+}
+.cabecera img {
+    width: 130px;
+    margin: auto;
+}
+.nombre-direccion {
+  font-size: 20px;
+}
+.perfil-diseñador h2 {
+  font-size: 45px;
+}
+.perfil-diseñador p {
+  font-size: 20px;
+}
+.competencias-desarrolladas h3 {
+  font-size: 40px;
+}
+.competencias-desarrolladas p {
+  font-size: 20px;
+  margin-top: 0%;
+}
+.article1-1-formacion-academica h2 {
+  font-size: 45px;
+}
+.article1-1-formacion-academica ul {
+  font-size: 20px;
+}
+.article1-1-software h3 {
+  font-size: 40px;
+}
+.article1-1-software ul h4 {
+  font-size: 25px;
+}
+.article1-1-software ul {
+  font-size: 20px;
+}
+.article1-1-formacion-complementaria h3 {
+  font-size: 40px;
+}
+.article1-1-formacion-complementaria ul li {
+  font-size: 20px;
+}
+.article1-1-formacion-complementaria img {
+  width: 213px;
+  height: 215px;
+}
+.article1-2 h2 {
+  font-size: 45px;
+}
+.article1-2 ul li {
+  font-size: 20px;
+}
+.article1-2 img {
+  width: 190px;
+  height: 270px;
+}
+.formulario-con-cabecera h2 {
+  font-size: 45px;
+}
+.formulario input, textarea {
+  font-size: 18px;
+}
+.formulario-botones input{
+width: 120px;
+}
+}
 @media screen and (min-width: 768px) {
   .div-body {
     width: 80%;
@@ -300,6 +369,7 @@ em.enfasis-subrayado {
   }
   .cabecera img {
     width: 132px;
+    margin: inherit;
   }
   .cabecera h1 {
     text-align-last: center;
@@ -374,7 +444,6 @@ em.enfasis-subrayado {
     font-size: 120%;
   }
   .article1-1-software ul {
-    list-style: none;
     font-size: 120%;
   }
   .article1-1-formacion-complementaria {
@@ -400,13 +469,9 @@ em.enfasis-subrayado {
     font-size: 120%;
   }
   .article1-2 img {
-    float: right;
     width: 246px;
     height: 326px;
   }
-
-
-
   .formulario-con-cabecera h2 {
     font-size: 350%;
   }
@@ -418,12 +483,13 @@ em.enfasis-subrayado {
     padding-right: 3%;
   }
   .sobre {
-    width: 400px;
+    /*width: 400px;*/
     height: 281.125px;
     margin-top: 0%;
   }
   .formulario input, textarea {
-    width: 400px;
+    /*width: 400px;*/
+    width: 97%;
     margin: 1%;
     font-size: 110%;
   }
