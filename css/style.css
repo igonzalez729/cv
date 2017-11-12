@@ -359,7 +359,7 @@ em.enfasis-subrayado {
 width: 120px;
 }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 980px) {
   .div-body {
     width: 80%;
   }
