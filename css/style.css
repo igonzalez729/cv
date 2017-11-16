@@ -1,4 +1,4 @@
-* {
+﻿* {
 margin: 0;
 }
 @font-face {
@@ -273,16 +273,17 @@ em.enfasis-subrayado {
   width: 107px;
 }
 .footer {
-  margin: 0% 3% 0% 3%;
+  margin: 0% 1px 0% 1px;
+  height: 80px;
   background-color: rgb(37, 37, 37);
 }
 .footer ul {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   list-style: none;
   padding-left: 0%;
-}
-.footer ul li {
-  margin: 1% auto 1px auto;
+  height: 100%;
 }
 .home {
   width: 50px;
@@ -488,7 +489,6 @@ width: 120px;
     margin-top: 0%;
   }
   .formulario input, textarea {
-    /*width: 400px;*/
     width: 97%;
     margin: 1%;
     font-size: 110%;
